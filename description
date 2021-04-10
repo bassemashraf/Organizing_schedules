@@ -1,0 +1,54 @@
+department
+{
+name
+courses
+}
+course{
+ID
+Name
+number of students
+instructors
+}
+Instructor{
+ID
+Name
+}
+Room
+{
+seats taken
+Max
+}
+Section{
+ID
+departmnent
+Course
+Instructor
+time
+room
+}
+time{
+id
+time 10 le 12
+}
+Data{
+room
+instructors
+courses
+departments
+time
+// students ,courses element number of students
+}
+schedule {
+data
+classes
+conflict   +1
+timetable random
+calculate fitness
+}
+population{
+size 2
+schedule
+}
+genetic{
+select crossover,mutation
+}
